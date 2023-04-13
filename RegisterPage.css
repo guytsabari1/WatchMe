@@ -15,8 +15,7 @@ h1{
     background-color: #EEEEEE;
     font-family: 'Bebas Neue';
     font-size: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px 0;
     text-align: center;}
 
 h2{
@@ -51,10 +50,10 @@ h2{
 /* Register-Card */
 
 #Main{
+    padding-bottom: 100px;
     text-align: center;
     margin: auto;
     width: 700px;
-    height: 100%;
     background-color: white;
     border-radius: 50px;
     
@@ -64,11 +63,12 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-bottom: 70px ;
+    padding-top: 50px ;
+    padding-bottom: 100px ;
 }
 
 
-#Login-btn{
+#Register-btn{
     margin-top: 30px;
     background-color: black;
     color: white;
@@ -78,7 +78,7 @@ h2{
     width: 320px;
 }
 
-#Login-btn:hover{
+#Register-btn:hover{
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 25px;
     height: 50px;
@@ -87,13 +87,13 @@ h2{
 
 /* bot-navbar */
 
-#nav-bot{
+#nav-bot {
     position: fixed;
-    bottom: 0%;
+    bottom: 0;
     width: 100%;
     justify-content: center;
     padding: 15px 0;
-}
+  }
 
 .Social-Media-Icons-Design{
     height: 55px;
@@ -102,32 +102,4 @@ h2{
     margin-left: 50px;
 }
 
-@media only screen and (max-width: 992px) {
 
-    #nav-bot{
-        position: fixed;
-        bottom: 0%;
-        width: 100%;
-        justify-content: center;
-        padding: 15px 0;
-    }
-
-    h1{
-        background-color: #EEEEEE;
-        font-family: 'Bebas Neue';
-        font-size: 100px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        text-align: center;}
-
-        #Card{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            padding-top: 50px ;
-            padding-bottom: 150px ;
-        }
-    
-    
-
-  }
