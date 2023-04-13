@@ -81,7 +81,8 @@ margin: 0;}
 /* bot-navbar */
 
 #nav-bot{
-    margin-top: 50px;
+    position: fixed;
+    bottom: 0%;
     width: 100%;
     justify-content: center;
     padding: 15px 0;
